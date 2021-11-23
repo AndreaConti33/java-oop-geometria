@@ -15,9 +15,7 @@ public class Main {
 
 		Rettangolo mioRettangolo = new Rettangolo(base, altezza);
 
-		mioRettangolo.calcoloArea();
 		System.out.println("L'area del tuo rettangolo è di: " + mioRettangolo.calcoloArea() + " centimetri quadrati.");
-		mioRettangolo.CalcoloPerimetro();
 		System.out.println("Il perimetro del tuo rettangolo è di: " + mioRettangolo.CalcoloPerimetro() + " centimetri.");
 
 		scanner.close();
